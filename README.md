@@ -1,12 +1,13 @@
 # EX-NO-4-EXPERIMENTAL-VERIFICATION-OF-OSCILLATOR
-4. ##**EX.NO:* ## EXPERIMENTAL VERIFICATION OF RC Phase Shift and Wien Bridge oscillators 
-	DATE:
- ##AIM:
+
+ ## EXPERIMENTAL VERIFICATION OF RC Phase Shift and Wien Bridge oscillators 
+	
+ ## AIM:
 To construct a RC phase shift and Wien bridge oscillator to generate sine wave using op-
 amp.
 ---
- ##THEORY:
- ##RC PHASE SHIFT OSCILLATOR
+ ## THEORY:
+ ## RC PHASE SHIFT OSCILLATOR
 RC phase shift oscillator produces 360° of phase shift in two parts. Firstly,each and every RC pair in the feedback network produces 60° phase shift and totally there were three pairs, thus producing 180° Phase shift and secondly, the feedback input is given to the inverting terminal of op-amp to produce another 180° phase shift and a total phase shift of 360°.
 The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an inverting amplifier is used, the gain must be atleast equal to 29 to ensure the oscillations with constant .
 ---
@@ -41,13 +42,9 @@ RC PHASE SHIFT OSCILLATOR
 ## DESIGN
 
 ## RC PHASE SHIFT OSCILLATOR
-fo = 1 /  6 (2RC) Rf  29 R1
-C = 0.01F, fo = 200 Hz.
-R = 1 /  6 (2  f C ) = 3.3 k
-Therefore, Choose R = 3.3k
-To prevent loading,
-R1   10 R
-R1 =10 R = 33 k. Rf = 29R1=1MΩ
+
+<img width="581" height="361" alt="image" src="https://github.com/user-attachments/assets/8ddd1ebb-d76d-47e7-8338-f3dae5794a81" />
+
 
 ---
 ## PROCEDURE
@@ -56,17 +53,13 @@ R1 =10 R = 33 k. Rf = 29R1=1MΩ
 3.	Measure the output wave frequency and amplitude.
 ---
 ## TABULATION/OBSERVATION
+<img width="1050" height="391" alt="image" src="https://github.com/user-attachments/assets/04a20c3c-828c-4380-b087-faffc8780f94" />
 
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
----
-## OUT PUT WAVEFORM AND DISCUSSION 
+
+## GRAPH
+<img width="1037" height="710" alt="image" src="https://github.com/user-attachments/assets/46533f09-467a-46aa-b620-90e5e1a72d93" />
+
 
 
 ---
@@ -102,17 +95,9 @@ WIEN BRIDGE OSCILLATOR
 ## DESIGN
 
 ## WIEN BRIDGE OSCILLATOR
-Select frequency f0 = 1KHz
-fo = 1/2πRC
-A = 1+(Rf / R1) = 3.
-To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
-R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
-Assume R1 = 10R & find Rf from Rf = 2R1
-Therefore R1 = 1.5K *10=15KΩ
-Rf = 15K *2=30KΩ
+
+<img width="553" height="669" alt="image" src="https://github.com/user-attachments/assets/67c71c60-f808-44e8-81fd-1733f6c0e648" />
+
 ---
 
 ## PROCEDURE
@@ -124,16 +109,12 @@ Rf = 15K *2=30KΩ
 ---
 ## TABULATION/OBSERVATION
 
+<img width="980" height="388" alt="image" src="https://github.com/user-attachments/assets/db3fc9b4-96af-4ed7-8660-4fa1b5c4bd28" />
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="1009" height="508" alt="image" src="https://github.com/user-attachments/assets/8bd6b1a8-410a-40fb-a2ec-0e46ae033ce5" />
+
 
 
 ---
